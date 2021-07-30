@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: tic_tac_toe
+    relative_path: urdf/mh5l_d435i_pgn64_table.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/robot_mh5l_d435i_pgn64_table.srdf
+  CONFIG:
+    author_name: Luis Martinez
+    author_email: luiscmartinez18@gmail.com
+    generated_timestamp: 1627656104
