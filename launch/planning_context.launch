@@ -6,7 +6,7 @@
   <arg name="robot_description" default="robot_description"/>
 
   <!-- Load universal robot description format (URDF) -->
-  <param if="$(arg load_robot_description)" name="$(arg robot_description)" textfile="$(find tic_tac_toe)/urdf/mh5l_d435i_pgn64_table.urdf"/>
+  <param if="$(arg load_robot_description)" name="$(arg robot_description)" command="xacro '$(find tic_tac_toe)/urdf/mh5l_d435i_pgn64_table.xacro'"/>
 
   <!-- The semantic description that corresponds to the URDF -->
   <param name="$(arg robot_description)_semantic" textfile="$(find robot_with_camera_config)/config/robot_mh5l_d435i_pgn64_table.srdf" />

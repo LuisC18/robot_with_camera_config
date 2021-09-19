@@ -1,7 +1,7 @@
 moveit_setup_assistant_config:
   URDF:
     package: tic_tac_toe
-    relative_path: urdf/mh5l_d435i_pgn64_table.urdf
+    relative_path: urdf/mh5l_d435i_pgn64_table.xacro
     xacro_args: ""
   SRDF:
     relative_path: config/robot_mh5l_d435i_pgn64_table.srdf
